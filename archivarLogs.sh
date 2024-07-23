@@ -1,9 +1,11 @@
 #!/bin/bash
 LIST_FILES=(
-        "/home/erick/Escritorio/Modulo diplomado/clase 22-07-2024/logs/Apache_2k.log"
+        #"/home/erick/Escritorio/Modulo diplomado/clase 22-07-2024/logs/Apache_2k.log"
+	"/home/cristian-terceros/Documentos/logs/Apache_2k.log"
 )
 
-ARCHIVE_DIR="/home/erick/Escritorio/Modulo diplomado/clase 22-07-2024/LogsFile"
+#ARCHIVE_DIR="/home/erick/Escritorio/Modulo diplomado/clase 22-07-2024/LogsFile"
+ARCHIVE_DIR="/home/cristian-terceros/Documentos/LogsFile"
 mkdir -p "$ARCHIVE_DIR"
 
 DATE=$(date +"%Y%m%d%H%M%S")
