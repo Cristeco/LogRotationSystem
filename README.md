@@ -6,11 +6,11 @@ crontab -e
 
 ## Configuración de Crontab
 
-### Ejecutar `archivarLogs.sh` diariamente a las 23:29
+### Ejecutar `archivarLogs.sh` diariamente a las 23:59 hrs
 
-29 23 * * * /home/cristian-terceros/Documentos/LogRotationSystem/archivarLogs.sh
+59 23 * * * /home/cristian-terceros/Documentos/LogRotationSystem/archivarLogs.sh
 
-### Ejecutar `rotarLogs.sh` cada 30 días a las 23:59
+### Ejecutar `rotarLogs.sh` el primer dia de cada mes a las 00:00 hrs
 
-59 23 */30 * * /home/cristian-terceros/Documentos/LogRotationSystem/rotarLogs.sh
+0 0 1 * * /home/cristian-terceros/Documentos/LogRotationSystem/rotarLogs.sh
 
